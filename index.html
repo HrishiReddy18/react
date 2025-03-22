@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="x">
+      <h1>Hello world before react</h1>
+    </div>
+    <div id="root1">
+      <h1>It will be replaced by react</h1>
+    </div>
+
+    <div>
+      <h1>Hello world after react</h1>
+    </div>
+    <script>
+      const heading = document.createElement("h3");
+      heading.innerHTML = "created from  simple js";
+      const x = document.getElementById("x");
+      x.appendChild(heading);
+    </script>
+    <!-- super powers of react, these 2 files -->
+    <!-- REACT  -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <!-- brigde to connect to react (either brower or mobile) -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
