@@ -1,0 +1,30 @@
+{
+  "name": "reactdev",
+  "version": "1.0.0",
+  "description": "This is namaste react by hrishi Reddy",
+  "keywords": [
+    "react",
+    "1st-react"
+  ],
+  "homepage": "https://github.com/HrishiReddy18/react#readme",
+  "bugs": {
+    "url": "https://github.com/HrishiReddy18/react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HrishiReddy18/react.git"
+  },
+  "license": "ISC",
+  "author": "Hrishi reddy",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.2"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
